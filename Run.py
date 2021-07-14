@@ -1,10 +1,9 @@
 from Minesweep import board
 from Minesweep import Player
-from pprint import pprint
 import os
 
 def menu(): 
-	pprint(" Welcome to Cheeper !")
+	print(" Welcome to Cheeper !")
 
 menu()
 

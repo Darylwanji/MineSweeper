@@ -56,7 +56,7 @@ class board:
 					self.board_wm[i][j] = " "+str(self.check_surrounding(position))
 				else:
 					pass
-
+	""" Check Surrounding of a position on the board [i,j] """
 	def check_surrounding(self,position):
 		count = 0
 		neighbors = lambda x,y : [(x2, y2) for x2 in range(x-1, x+2)
